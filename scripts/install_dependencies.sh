@@ -1,5 +1,5 @@
 #!/bin/bash
-echo '[running install script v1.9.2]'
+echo '[running install script v1.10.1]'
 cd /home/ubuntu/source/
 echo $(whoami)
 echo '[Path]: Before'
@@ -9,7 +9,7 @@ echo '[Path]: After'
 echo $PATH
 echo '[calling which node]'
 which node
-echo '[calling which nmp]'
+echo '[calling which npm]'
 which npm
 echo '[calling which pm2]'
 which pm2

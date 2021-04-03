@@ -4,13 +4,13 @@ files:
   - source: /
     destination: /home/ubuntu/source/
 permissions:
-  - object: /home/ubuntu/source
+  - object: /home/ubuntu/*
     owner: ubuntu
     group: ubuntu
 hooks:
   AfterInstall:
     - location: scripts/install_dependencies.sh
-      timeout: 300
+      timeout: 3000
       runas: ubuntu
   ApplicationStop:
     - location: scripts/stop_server.sh
