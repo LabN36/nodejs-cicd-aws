@@ -5,7 +5,9 @@ files:
     destination: /home/ubuntu/source/
 permissions:
   - object: /home/ubuntu/source/
-    mode: 777
+    owner: ubuntu
+    group: ubuntu
+    mode: "0644"
 hooks:
   AfterInstall:
     - location: scripts/install_dependencies.sh
