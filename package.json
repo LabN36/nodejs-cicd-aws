@@ -1,0 +1,24 @@
+{
+  "name": "cicd",
+  "version": "1.0.0",
+  "description": "https://smallstep.com/blog/ssh-agent-explained/",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LabN36/nodejs-cicd-aws.git"
+  },
+  "author": "LabN36",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LabN36/nodejs-cicd-aws/issues"
+  },
+  "homepage": "https://github.com/LabN36/nodejs-cicd-aws#readme"
+}
