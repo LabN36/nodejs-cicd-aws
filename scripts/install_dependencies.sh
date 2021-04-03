@@ -1,6 +1,6 @@
 #!/bin/bash
 echo '[running install script v1.8.2]'
-cd /home/ubuntu/
+cd /home/ubuntu/source/
 echo $(whoami)
 echo '[Path]: Before'
 echo $PATH
