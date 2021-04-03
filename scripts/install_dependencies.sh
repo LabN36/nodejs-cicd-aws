@@ -20,7 +20,7 @@ echo '[npm install]'
 echo '[pm2 list]'
 pm2 list
 echo '[pm2 stop]'
-pm2 stop wmc
+pm2 stop all
 npm install
 echo '[done]'
 pm2 start server.js --name test-pipeline
