@@ -1,5 +1,5 @@
 #!/bin/bash
-echo '[running install script v1.10.1]'
+echo '[running install script v1.10.3]'
 cd /home/ubuntu/source/
 echo $(whoami)
 echo '[Path]: Before'
@@ -21,6 +21,7 @@ echo '[pm2 list]'
 pm2 list
 echo '[pm2 stop]'
 pm2 stop all
+echo $(whoami)
 npm install
 echo '[done]'
 pm2 start server.js --name test-pipeline
