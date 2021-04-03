@@ -4,9 +4,10 @@ files:
   - source: /
     destination: /home/ubuntu/source/
 permissions:
-  - object: /home/ubuntu/source/*
+  - object: /home/ubuntu/source/
     owner: ubuntu
     group: ubuntu
+    mode: 644
 hooks:
   AfterInstall:
     - location: scripts/install_dependencies.sh
